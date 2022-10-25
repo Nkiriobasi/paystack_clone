@@ -1,0 +1,26 @@
+@use '../../variables' as v;
+
+header{
+    width: 100%;
+    padding: 12px 3rem;
+    background-color: v.$pistachio-bg;
+    position: fixed;
+    top: 0;
+    z-index: 999;
+    
+    nav{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        .left{
+            display: flex;
+            align-items: center;
+
+            img{
+                width: 125px;
+                margin-right: 24px;
+            }
+        }
+    }
+}
