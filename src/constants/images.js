@@ -6,6 +6,9 @@ import boltStack from '../assets/Bolt-Stack.svg';
 import dominos from '../assets/Dominos.svg';
 import mtn from '../assets/Mtn.svg';
 
+import collectPayments from '../assets/Collect-Payments.gif';
+import check from '../assets/check.svg';
+
 
 // eslint-disable-next-line import/no-anonymous-default-export
 export default {
@@ -16,4 +19,7 @@ export default {
     boltStack,
     dominos,
     mtn,
+
+    collectPayments,
+    check,
 }

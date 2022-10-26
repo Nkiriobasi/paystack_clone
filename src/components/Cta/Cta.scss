@@ -1,0 +1,44 @@
+@use '../../variables' as v;
+
+.cta{
+    display: flex;
+    align-items: center;
+
+    .cta__link{
+        color: v.$green-color;
+        display: flex;
+        align-items: center;
+
+        &:hover .arrow-right{
+            background-color: v.$green-color;
+            border-radius: 50%;
+        }
+
+        .cta-svg{
+            padding: 0 8px 0 0;
+            height: 20px;
+
+            .arrow-right{
+                font-size: 1.375rem;
+            }
+        }
+
+        .cta-text{
+            position: relative;
+            font-weight: 500;
+
+            &::before {
+                content: '';
+                background: #eaf8ee;
+                position: absolute;
+                top: 13px;
+                left: -2px;
+                width: 100%;
+                height: 5px;
+                z-index: -1;
+                -webkit-transition: 1s cubic-bezier(0.17, 0.635, 0.54, 1.435);
+                transition: 1s cubic-bezier(0.17, 0.635, 0.54, 1.435);
+            }
+        }
+    }
+}

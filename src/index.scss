@@ -37,13 +37,31 @@ h1, h2, h3, h4, h5{
 }
 
 
+.display-1 {
+  font-size: 2.088rem;
+  font-weight: 800;
+
+  @media (min-width: v.$breakpoint-mobile){
+      font-size: 2.75rem;
+  }
+}
+
+.display-2{
+  font-size: 1.5rem;
+
+  @media (min-width: v.$breakpoint-tablet){
+    font-size: 2rem;
+  }
+}
+
+
 p{
   color: #011b33;
 }
 
 
 .p-20 {
-  font-size: 16.7px;
+  font-size: 1rem;
   line-height: 1.5;
   font-weight: 400;
   margin-bottom: 2.1rem;
@@ -72,3 +90,13 @@ p{
       font-weight: 500;
   }
 }
+
+
+.padding-top-150{
+  padding-top: 3.12rem;
+
+  @media (min-width: v.$breakpoint-mobile){
+    padding-top: 9.375rem;
+  }
+}
+

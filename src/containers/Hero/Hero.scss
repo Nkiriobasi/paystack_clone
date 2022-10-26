@@ -29,21 +29,13 @@
         }
 
         .display-1 {
-            font-size: 33.4px;
             margin-bottom: 20px;
-            font-weight: 800;
-
-            @media (min-width: v.$breakpoint-mobile){
-                font-size: 3rem;
-            }
         }
     }
 
     .hero__bottom{
         padding-bottom: 3rem;
         display: block;
-        // flex-direction: column;
-        // justify-content: space-between;
         margin: 0 0.5rem;
 
         @media (min-width: v.$breakpoint-desktop){
