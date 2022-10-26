@@ -1,11 +1,6 @@
 @use '../../variables' as v;
 
 .payments{
-    padding-bottom: 0;
-
-    @media (min-width: v.$breakpoint-mobile){
-        padding-bottom: 9.375rem;
-    }
 
 
     .header__body{

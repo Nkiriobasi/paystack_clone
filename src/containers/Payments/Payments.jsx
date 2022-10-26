@@ -6,7 +6,7 @@ import { Cta } from '../../components';
 
 const Payments = () => {
   return (
-    <section className='payments padding-top-150'>
+    <section className='payments padding-bottom-150 padding-top-150'>
         <div className="container">
             <div className="header__body">
                 <h1 className="display-1">Simple, easy payments</h1>

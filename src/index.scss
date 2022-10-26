@@ -100,3 +100,11 @@ p{
   }
 }
 
+.padding-bottom-150{
+  padding-bottom: 0;
+
+    @media (min-width: v.$breakpoint-mobile){
+        padding-bottom: 9.375rem;
+    }
+}
+
