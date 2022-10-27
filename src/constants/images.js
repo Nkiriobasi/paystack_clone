@@ -11,6 +11,8 @@ import check from '../assets/check.svg';
 
 import RobustApis from '../assets/Robust-Suite-of-APIs-Opt.png';
 
+import AdvancedFraudProtection from '../assets/Advanced-Fraud-Protection.mp4';
+
 
 // eslint-disable-next-line import/no-anonymous-default-export
 export default {
@@ -25,5 +27,7 @@ export default {
     collectPayments,
     check,
 
-    RobustApis
+    RobustApis,
+
+    AdvancedFraudProtection,
 }

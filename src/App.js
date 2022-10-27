@@ -1,4 +1,4 @@
-import { Header, Hero, Payments, DocumentedApis } from './containers';
+import { Header, Hero, Payments, DocumentedApis, FraudDetection } from './containers';
 
 function App() {
   return (
@@ -7,6 +7,7 @@ function App() {
       <Hero />
       <Payments />
       <DocumentedApis />
+      <FraudDetection />
     </div>
   );
 }
