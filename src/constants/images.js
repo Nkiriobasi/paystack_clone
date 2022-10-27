@@ -9,6 +9,8 @@ import mtn from '../assets/Mtn.svg';
 import collectPayments from '../assets/Collect-Payments.gif';
 import check from '../assets/check.svg';
 
+import RobustApis from '../assets/Robust-Suite-of-APIs-Opt.png';
+
 
 // eslint-disable-next-line import/no-anonymous-default-export
 export default {
@@ -22,4 +24,6 @@ export default {
 
     collectPayments,
     check,
+
+    RobustApis
 }

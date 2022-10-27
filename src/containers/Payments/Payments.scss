@@ -18,118 +18,13 @@
 
 
     .feature{
-        display: flex;
-        align-items: center;
-
-        @media (max-width: v.$breakpoint-mobile){
-            width: 100%;
-            display: block;
-        }
+        
 
         .left{
-            -webkit-box-flex: 1;
-            -ms-flex: 1;
-            flex: 1;
             margin-right: 3.125rem;
 
             @media (max-width: v.$breakpoint-mobile){
                 margin-right: 0;
-            }
-
-            .media {
-                width: 100%;
-
-                img{
-                    width: 100%;
-                }
-            }
-        }
-
-
-        .right{
-            -webkit-box-flex: 1;
-            -ms-flex: 1;
-            flex: 1;
-            display: flex;
-            -webkit-box-orient: vertical;
-            -webkit-box-direction: normal;
-            flex-direction: column;
-            -webkit-box-pack: center;
-            justify-content: center;
-            -webkit-box-align: center;
-            align-items: center;
-
-            @media (max-width: v.$breakpoint-mobile){
-                margin-top: 50px;
-                display: block;
-                width: 100%;
-            }
-
-
-            .feature__details {
-                margin-bottom: 3.125rem;
-                max-width: 31.25rem;
-
-                .feature__text{
-                    margin-bottom: 50px;
-
-                    .p-20{
-                        margin: 19px 0;
-
-                        @media (max-width: v.$breakpoint-tablet){
-                            font-size: 1.125rem;
-                        }
-                    }
-                }
-
-
-                .feature__payment-methods{
-                    margin: 30px 0;
-                    display: flex;
-                    display: -webkit-box;
-                    display: -ms-flexbox;
-
-                    @media (max-width: v.$breakpoint-tablet){
-                        display: block;
-                    }
-                    
-
-                    ul{
-                        -webkit-box-flex: 1;
-                        -ms-flex: 1;
-                        flex: 1;
-
-                        li{
-                            font-weight: 500;
-                            padding: 5px 0 5px 20px;
-                            margin-bottom: 5px;
-                            position: relative;
-
-                            &::before {
-                                content: '';
-                                background: #f1fef4;
-                                position: absolute;
-                                left: -10px;
-                                top: 0;
-                                height: 35px;
-                                width: 40px;
-                                border-radius: 6px;
-                                z-index: -1;
-                            }
-
-                            &::after {
-                                content: '';
-                                background-image: url('../../assets/check.svg');
-                                background-size: cover;
-                                width: 12px;
-                                height: 12px;
-                                position: absolute;
-                                left: 2px;
-                                top: 10px;
-                            }
-                        }
-                    }
-                }
             }
         }
     }
