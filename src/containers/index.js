@@ -6,3 +6,4 @@ export { default as FraudDetection } from './FraudDetection/FraudDetection';
 export { default as TrustedBusinesses } from './TrustedBusinesses/TrustedBusinesses';
 export { default as PoweringGrowth } from './PoweringGrowth/PoweringGrowth';
 export { default as BackedPartners } from './BackedPartners/BackedPartners';
+export { default as AcceptingPayments } from './AcceptingPayments/AcceptingPayments';
