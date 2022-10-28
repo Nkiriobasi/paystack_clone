@@ -34,6 +34,14 @@ import GIGM from '../assets/GIGM-Plain.svg';
 import CowrywiseDark from '../assets/Cowrywise-dark.svg';
 import SmilePlain from '../assets/Smile-Plain.svg';
 
+import StripeLogo from '../assets/Stripe-Logo-blue.png';
+import VisaLogo from '../assets/visa-logo.png';
+import ycombinatorLogo from '../assets/ycombinator-logo.png';
+
+import MichaelSiebel from '../assets/michael-siebel.jpeg';
+import OttoWilliams from '../assets/otto.jpeg';
+import PatrickCollison from '../assets/patrick-collison.jpeg';
+
 
 // eslint-disable-next-line import/no-anonymous-default-export
 export default {
@@ -71,5 +79,13 @@ export default {
     IrokoTV,
     GIGM,
     CowrywiseDark,
-    SmilePlain
+    SmilePlain,
+
+    StripeLogo,
+    VisaLogo,
+    ycombinatorLogo,
+
+    MichaelSiebel,
+    OttoWilliams,
+    PatrickCollison
 }

@@ -1,5 +1,5 @@
 import React from 'react';
-import { Header, Hero, Payments, DocumentedApis, FraudDetection, TrustedBusinesses, PoweringGrowth } from './containers';
+import { Header, Hero, Payments, DocumentedApis, FraudDetection, TrustedBusinesses, PoweringGrowth, BackedPartners } from './containers';
 
 const AppWrap = () => {
   return (
@@ -11,6 +11,7 @@ const AppWrap = () => {
         <FraudDetection />
         <TrustedBusinesses />
         <PoweringGrowth />
+        <BackedPartners />
     </>
   );
 }
