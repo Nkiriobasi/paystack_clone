@@ -1,14 +1,9 @@
-import { Header, Hero, Payments, DocumentedApis, FraudDetection, TrustedBusinesses } from './containers';
+import AppWrap from "./AppWrap";
 
 function App() {
   return (
     <div className='app'>
-      <Header />
-      <Hero />
-      <Payments />
-      <DocumentedApis />
-      <FraudDetection />
-      <TrustedBusinesses />
+      <AppWrap />
     </div>
   );
 }
