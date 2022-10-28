@@ -11,7 +11,7 @@ const FraudDetection = () => {
         <div className="feature">
           <div className="left">
             <div className="media">
-              <video autoplay muted loop>
+              <video autoPlay muted loop>
                 <source src={images.AdvancedFraudProtection} type="video/mp4" />
                 Your browser does not support the video tag.
               </video>

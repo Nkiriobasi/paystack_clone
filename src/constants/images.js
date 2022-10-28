@@ -13,6 +13,10 @@ import RobustApis from '../assets/Robust-Suite-of-APIs-Opt.png';
 
 import AdvancedFraudProtection from '../assets/Advanced-Fraud-Protection.mp4';
 
+import psEntrepreneurs from '../assets/ps-entrepreneurs.svg';
+import psGlobalBrands from '../assets/ps-global-brands.svg';
+import psLargeOrganizations from '../assets/ps-large -organizations.svg';
+
 
 // eslint-disable-next-line import/no-anonymous-default-export
 export default {
@@ -30,4 +34,8 @@ export default {
     RobustApis,
 
     AdvancedFraudProtection,
+
+    psEntrepreneurs,
+    psGlobalBrands,
+    psLargeOrganizations,
 }

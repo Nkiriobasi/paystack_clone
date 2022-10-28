@@ -1,4 +1,4 @@
-import { Header, Hero, Payments, DocumentedApis, FraudDetection } from './containers';
+import { Header, Hero, Payments, DocumentedApis, FraudDetection, TrustedBusinesses } from './containers';
 
 function App() {
   return (
@@ -8,6 +8,7 @@ function App() {
       <Payments />
       <DocumentedApis />
       <FraudDetection />
+      <TrustedBusinesses />
     </div>
   );
 }

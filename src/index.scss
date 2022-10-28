@@ -41,7 +41,7 @@ h1, h2, h3, h4, h5{
   font-size: 2.088rem;
   font-weight: 800;
 
-  @media (min-width: v.$breakpoint-mobile){
+  @media (min-width: v.$breakpoint-tablet){
       font-size: 2.75rem;
   }
 }
@@ -51,6 +51,14 @@ h1, h2, h3, h4, h5{
 
   @media (min-width: v.$breakpoint-tablet){
     font-size: 2rem;
+  }
+}
+
+.display-3{
+  font-size: 1.25rem;
+  
+  @media (min-width: v.$breakpoint-tablet){
+    font-size: 1.5rem;
   }
 }
 
@@ -104,8 +112,22 @@ p{
   padding-bottom: 0;
 
     @media (min-width: v.$breakpoint-mobile){
-        padding-bottom: 9.375rem;
+      padding-bottom: 9.375rem;
     }
+}
+
+
+.header__body{
+  margin-bottom: 50px;
+  width: 100%;
+
+  @media (min-width: v.$breakpoint-mobile){
+    width: 54%;
+  }
+
+  .p-20{
+    margin-bottom: 0;
+  }
 }
 
 

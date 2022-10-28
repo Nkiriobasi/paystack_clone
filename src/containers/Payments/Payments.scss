@@ -1,31 +1,10 @@
 @use '../../variables' as v;
 
-.payments{
 
+.left{
+    margin-right: 3.125rem;
 
-    .header__body{
-        margin-bottom: 50px;
-        width: 100%;
-
-        @media (min-width: v.$breakpoint-mobile){
-            width: 54%;
-        }
-
-        .p-20{
-            margin-bottom: 0;
-        }
-    }
-
-
-    .feature{
-        
-
-        .left{
-            margin-right: 3.125rem;
-
-            @media (max-width: v.$breakpoint-mobile){
-                margin-right: 0;
-            }
-        }
+    @media (max-width: v.$breakpoint-mobile){
+        margin-right: 0;
     }
 }
