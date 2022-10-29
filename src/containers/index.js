@@ -7,3 +7,4 @@ export { default as TrustedBusinesses } from './TrustedBusinesses/TrustedBusines
 export { default as PoweringGrowth } from './PoweringGrowth/PoweringGrowth';
 export { default as BackedPartners } from './BackedPartners/BackedPartners';
 export { default as AcceptingPayments } from './AcceptingPayments/AcceptingPayments';
+export { default as Footer } from './Footer/Footer';

@@ -1,0 +1,121 @@
+@use '../../variables' as v;
+
+.footer{
+    padding-bottom: 9.375rem;
+
+    .row {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        margin-bottom: 48px;
+
+        &:nth-of-type(2) {
+            border-top: 1px solid rgba(240, 242, 243, 0.85);
+            padding-top: 48px;
+            margin-bottom: 0;
+        }
+
+        @media (max-width: v.$breakpoint-mobile){
+            -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+            margin-bottom: 24px;
+        }
+
+
+        .column {
+            -webkit-box-flex: 0;
+            -ms-flex-positive: 0;
+            flex-grow: 0;
+            -ms-flex-negative: 1;
+            flex-shrink: 1;
+            -ms-flex-preferred-size: 33.33%;
+            flex-basis: 33.33%;
+            padding: 0 16px;
+            -webkit-transition: 0.4s;
+            transition: 0.4s;
+
+            @media (max-width: v.$breakpoint-mobile){
+                -ms-flex-preferred-size: 100%;
+                flex-basis: 100%;
+                padding: 0;
+            }
+
+            .group{
+                margin-bottom: 20px;
+
+
+                h4 {
+                    color: #011b33;
+                    display: inline-block;
+                    font-size: 18px;
+                }
+
+                .translate {
+                    margin-bottom: 10px !important;
+                }
+
+                .dropdown {
+                    position: relative;
+                }
+
+                .address {
+                    color: inherit;
+                    font-size: 16px;
+                    text-decoration: none;
+                    -webkit-transition: color 0.3s ease;
+                    transition: color 0.3s ease;
+                 }
+
+
+
+                ul {
+                    -webkit-transition: max-height 0.2s ease-out;
+                    transition: max-height 0.2s ease-out;
+
+                    &:last-of-type {
+                        margin-bottom: 0;
+                    }
+
+                    li {
+                        color: rgba(1, 27, 51, 0.9);
+                        margin-bottom: 6px;
+                        line-height: 1.6;
+                        text-transform: capitalize;
+                        position: relative;
+
+                        a {
+                            color: inherit;
+                            font-size: 1rem;
+                            text-decoration: none;
+                            -webkit-transition: color 0.3s ease;
+                            transition: color 0.3s ease;
+                        }
+
+                        .mail {
+                            color: v.$blue-color;
+                        }
+
+
+                        .social {
+                            display: -webkit-box;
+                            display: -ms-flexbox;
+                            display: flex;
+                            -webkit-box-align: center;
+                            -ms-flex-align: center;
+                            align-items: center;
+
+                            li {
+                                padding-right: 20px;
+                                margin-bottom: 0;
+
+                                .social-icon{
+                                    font-size: 25px;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
